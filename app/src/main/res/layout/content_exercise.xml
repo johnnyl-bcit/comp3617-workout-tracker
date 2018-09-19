@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.bcit.comp3617final.Exercise"
+    tools:showIn="@layout/activity_exercise">
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Exercise Name"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/exerciseSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Sets:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/exerciseSetsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/exercoseReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Reps:"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/exercoseRepsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp" />
+
+    <TextView
+        android:id="@+id/exerciseWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/exerciseWeightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp" />
+
+    <Button
+        android:id="@+id/exerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="exerciseButton"
+        android:onClick="ButtonClicked"
+        android:background="@color/buttonBG"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calendar Workout Tracker</string>
+    <string name="refresh_calendar">Refresh Calendar</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="change_user">Change User</string>
+    <string name="change_date">Change Date</string>
+</resources>
